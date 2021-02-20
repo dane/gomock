@@ -2,6 +2,14 @@
 
 An easy and repeatable way to create gomock's mockgen in a container.
 
+## Usage
+
+```
+docker run ghcr.io/dane/gomock:v1.5.0 [ARGS]
+```
+
+## Build
+
 ```
 make
 ```
