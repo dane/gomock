@@ -16,4 +16,4 @@ WORKDIR /app
 
 COPY --from=builder /go/bin/mockgen /usr/local/bin/mockgen
 
-ENTRYPOINT /usr/local/bin/mockgen
+ENTRYPOINT ["/usr/local/bin/mockgen"]
