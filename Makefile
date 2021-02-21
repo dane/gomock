@@ -10,7 +10,7 @@ tag:
 
 .PHONY: build
 build:
-	${DOCKER} build -t ghcr.io/dane/gomock:${VERSION} --build-arg GOMOCK_VERSION=${VERSION} -f Dockerfile
+	${DOCKER} build -t ghcr.io/dane/gomock:${VERSION} --build-arg GOMOCK_VERSION=${VERSION} -f Containerfile
 
 .PHONY: release
 release:
